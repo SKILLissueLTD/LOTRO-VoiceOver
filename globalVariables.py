@@ -27,7 +27,7 @@ ui_scale = None               # detected scale
 ui_scale_scanning_active = False  # currently scanning
 
 # App version (keep updated manually)
-app_version = "0.1.0"
+app_version = "0.1.2"
 # GitHub repository slug for update checks (owner/repo)
 github_repo = "SKILLissueLTD/lotro-voiceover"
 
