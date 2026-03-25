@@ -1,0 +1,44 @@
+[
+    {
+        "rate": "0.96",
+        "emphasis": true,
+        "volume": "loud",
+        "Name": "Constable Underhill",
+        "Voice": "en-GB-Standard-D"
+    },
+    {
+        "rate": "0.86",
+        "emphasis": false,
+        "volume": "loud",
+        "Name": "Strider",
+        "Voice": "en-AU-Standard-D"
+    },
+    {
+        "rate": "0.98",
+        "emphasis": true,
+        "volume": "x-loud",
+        "Name": "Lenglinn",
+        "Voice": "en-GB-Standard-B"
+    },
+    {
+        "rate": "1.12",
+        "emphasis": true,
+        "volume": "soft",
+        "Name": "Fredegar Bolger",
+        "Voice": "en-AU-Polyglot-1"
+    },
+    {
+        "rate": "1.03",
+        "emphasis": false,
+        "volume": "soft",
+        "Name": "Adso Haybank",
+        "Voice": "en-IN-Standard-B"
+    },
+    {
+        "rate": "1.03",
+        "emphasis": false,
+        "volume": "x-soft",
+        "Name": "Watchman Cardoon",
+        "Voice": "en-IN-Standard-F"
+    }
+]

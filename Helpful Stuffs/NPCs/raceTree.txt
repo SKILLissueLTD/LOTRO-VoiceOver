@@ -1,0 +1,398 @@
+a k|dwarf
+adanel|elf
+adig|dwarf
+adnakhr|human
+aegnor|elf
+aldamir|elf
+aldarion|elf
+aldor|human
+almarian|human
+amandil|human
+amdr|elf
+amlach|elf
+amlaith|human
+amras|elf
+amrod|elf
+amroth|elf
+anardil|elf
+ancalim|elf
+ancalimon|elf
+andreth|human
+angamait|human
+angrod|elf
+annael|elf
+anrion|human
+ar-|human
+ar-gimilzr|human
+ar-pharazn|human
+C:\Users\Robin\Documents\lotro-voiceover\lotro-voiceover\Helpful Stuffs\NPCs
+arador|human
+araglas|human
+aragorn i|human
+aragorn ii|human
+aragost|dwarf
+arahad i|dwarf
+arahad ii|dwarf
+arahael|dwarf
+aranarth|human
+arantar|human
+aranuir|human
+aranw|elf
+araphant|human
+araphor|human
+arassuil|human
+aratan|human
+arathorn i|human
+arathorn ii|human
+araval|human
+aravir|human
+aravorn|human
+arciryas|human
+aredhel|elf
+argeleb i|human
+argeleb ii|human
+argon|elf
+argonui|human
+arminas|elf
+artamir|human
+arvedui|human
+arvegil|human
+arveleg i|human
+arveleg ii|elf
+arwen|elf
+atanamir|elf
+atanatar i|human
+atanatar ii|human
+axantur|human
+azaghl|dwarf
+baldor|human
+balin|dwarf
+baragund|human
+barahir|human
+baran|human
+baranor|human
+beldir|human
+beldis|human
+belecthor i|human
+belecthor ii|human
+beleg|elf
+belegor|human
+belegorn|human
+belegund|human
+belemir|human
+belen|human
+beleth|human
+bereg|human
+beregond|human
+beren|dwarf
+beren i|human
+beren ii|human
+beril|human
+bifur|dwarf
+bofur|dwarf
+bombur|dwarf
+bor|human
+borin|dwarf
+boromir|human
+boromir i|human
+boron|human
+brandir|elf
+bregil|human
+brego|human
+bregolas|human
+bregor|human
+brytta|human
+calimehtar|human
+calimmacil|human
+calmacil|elf
+caranthir|elf
+castamir|human
+celeborn|elf
+celebran|elf
+celebrimbor|elf
+celebrindor|elf
+celegorm|elf
+celepharn|elf
+cemendur|elf
+cil i|human
+cil ii|human
+cirion|human
+ciryandil|human
+ciryon|human
+crdan|elf
+cthalion|elf
+curufin|elf
+daeron|elf
+denethor|elf
+denethor i|human
+denethor ii|human
+din i|dwarf
+din ii|dwarf
+dior|human
+dnhere|dwarf
+dor|human
+dori|elf
+drhael|human
+duilin|elf
+durin i|elf
+durin ii|elf
+durin iii|elf
+durin iv|elf
+durin v|dwarf
+durin vi|dwarf
+durin vii|dwarf
+dwalin|dwarf
+ecthelion|elf
+ecthelion i|human
+ecthelion ii|human
+egalmoth|elf
+elatan|elf
+elboron|human
+eldacar|human
+eldarion|human
+elemmakil|elf
+elendil|human
+elendur|human
+elenw|elf
+elessar|human
+elfhild|dwarf
+elfwine|dwarf
+elladan|elf
+elmo|elf
+elrohir|elf
+elrond|elf
+elros|elf
+elurd|elf
+elurn|elf
+elw|elf
+elwing|elf
+emeldir|human
+enel|elf
+enely|elf
+eofor|dwarf
+eomer|dwarf
+eorl|human
+eradan|human
+erchamion|human
+erendil|human
+erendur|elf
+erkenbrand|human
+ernil i|human
+ernil ii|human
+ernur|human
+erwen|elf
+estel|human
+fanor|elf
+faramir|human
+farin|dwarf
+fastred|human
+fengel|human
+finarfin|elf
+findis|elf
+finduilas|elf
+fingolfin|elf
+fingon|elf
+finrod|elf
+finw|elf
+fli|dwarf
+folca|human
+folcred|human
+folcwine|human
+forthwini|human
+fountain|elf
+fra|human
+fralf|dwarf
+fram|human
+frawine|dwarf
+frca|dwarf
+frerin|dwarf
+friel|human
+frr|dwarf
+frumgar|dwarf
+fundin|dwarf
+galadhon|dwarf
+galadriel|elf
+galathil|elf
+galdor|elf
+gamil|dwarf
+gamling|dwarf
+gelmir|elf
+gil-galad|elf
+gildor|elf
+gilraen|human
+gilwen|human
+gimilkhd|elf
+gimli|dwarf
+glin|dwarf
+glorfindel|elf
+goldwine|dwarf
+gram|dwarf
+grimbold|human
+grin|dwarf
+grma|human
+grr|dwarf
+guilin|elf
+gwindor|elf
+hador|elf
+haldad|elf
+haldan|elf
+haldar|elf
+haldir|elf
+haleth|elf
+hallacar|elf
+hallas|human
+hallatan|elf
+halmir|elf
+hammerhand|human
+handir|elf
+hareth|elf
+hathol|elf
+helm|human
+herion|human
+herucalmo|elf
+hild|human
+hirwen|human
+hma|human
+house hador|dwarf
+house haleth|elf
+hrin|elf
+hrin i|human
+hrin ii|human
+huor|elf
+hyarmenda|human
+idril|elf
+imin|elf
+iminy|elf
+imlach|elf
+indis|elf
+inglorion|elf
+ingw|elf
+ingwion|elf
+inzilbeth|elf
+irim|elf
+isildur|human
+isilmo|elf
+ivorwen|human
+kli|dwarf
+lalaith|elf
+legolas|elf
+lenw|elf
+lindorie|elf
+line anrion|human
+lod|human
+luthien|elf
+mablung|elf
+maedhros|elf
+maeglin|elf
+maglor|elf
+magor|elf
+mahtan|elf
+malach|elf
+mallor|human
+malvegil|human
+marach|elf
+mardil|human
+marhari|human
+marhwini|human
+meneldil|human
+meneldur|elf
+minardil|human
+minastan|human
+minohtar|human
+mithrellas|elf
+morwen|human
+mriel|elf
+narmacil i|human
+narmacil ii|human
+nerdanel|elf
+nimloth|elf
+nimrodel|elf
+nin|dwarf
+nin i|dwarf
+nin ii|dwarf
+ninor|elf
+nmendil|elf
+nmenoreans|human
+nolondil|elf
+nori|dwarf
+old|human
+olw|elf
+omund|dwarf
+onodher|human
+ori|dwarf
+ornendil|human
+orodreth|elf
+oropher|elf
+orophin|elf
+ostoher|human
+owyn|human
+pelendur|human
+pengolodh|elf
+penlod|elf
+ran|human
+rmendacil|human
+rmil|elf
+rog|elf
+sakalthr|human
+salgant|elf
+sanganyan|human
+silmarin|elf
+siriondil|human
+tar-|human
+tar-alcarin|elf
+tar-amandil|elf
+tar-anducal|elf
+tar-anrion|elf
+tar-ardamin|elf
+tar-ciryatan|elf
+tar-elendil|elf
+tar-minastir|elf
+tar-mriel|elf
+tar-palantir|elf
+tar-srion|elf
+tarannon|human
+tarcil|human
+tarciryan|human
+tarondor|human
+tata|elf
+tati|elf
+telchar|dwarf
+telcontar|human
+telemmait|elf
+telemnar|human
+telperin|elf
+telumehtar|human
+thengel|human
+thingol|elf
+thoden|human
+thodred|human
+thodwyn|human
+thorin i|dwarf
+thorin ii|dwarf
+thorin iii|dwarf
+thorondir|human
+thranduil|elf
+thrin i|dwarf
+thrin ii|dwarf
+thrr|dwarf
+trin|dwarf
+trin i|human
+trin ii|human
+tuor|dwarf
+turambar|human
+turgon|elf
+valacar|human
+valandil|human
+valandur|human
+vanimeld|human
+vantur|human
+vardamir|human
+vidugavia|human
+vidumavi|human
+vorondil|human
+voronw|elf
+walda|human
+wulf|human
+young|human
+zimrathn|human
+zirak|dwarf

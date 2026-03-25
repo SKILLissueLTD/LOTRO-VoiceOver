@@ -1,0 +1,134 @@
+{
+  "_comment": "LOTRO Voice System Configuration",
+  "default_model_root": "models",
+  "races": {
+    "human": {
+      "male": {
+        "use_custom_model": true,
+        "model_path": "models/en_US-libritts-high.onnx",
+        "use_speaker_id": true,
+        "speaker_id": 519,
+        "emotion": {
+          "speed": 0.79,
+          "noise": 0.6
+        }
+      },
+      "female": {
+        "use_custom_model": true,
+        "model_path": "models/en_US-libritts-high.onnx",
+        "use_speaker_id": true,
+        "speaker_id": 10,
+        "emotion": {
+          "speed": 1.0,
+          "noise": 0.6
+        }
+      }
+    },
+    "elf": {
+      "male": {
+        "use_custom_model": true,
+        "model_path": "models/en_US-libritts-high.onnx",
+        "use_speaker_id": true,
+        "speaker_id": 156,
+        "emotion": {
+          "speed": 1.0,
+          "noise": 0.73
+        }
+      },
+      "female": {
+        "use_custom_model": true,
+        "model_path": "models/en_US-libritts-high.onnx",
+        "use_speaker_id": true,
+        "speaker_id": 60,
+        "emotion": {
+          "speed": 0.95,
+          "noise": 0.77
+        }
+      }
+    },
+    "dwarf": {
+      "male": {
+        "use_custom_model": true,
+        "model_path": "models/en_US-libritts-high.onnx",
+        "use_speaker_id": true,
+        "speaker_id": 472,
+        "emotion": {
+          "speed": 1.3,
+          "noise": 0.31
+        }
+      },
+      "female": {
+        "use_custom_model": true,
+        "model_path": "models/en_US-libritts-high.onnx",
+        "use_speaker_id": true,
+        "speaker_id": 672,
+        "emotion": {
+          "speed": 1.05,
+          "noise": 0.55
+        }
+      }
+    },
+    "wizard": {
+      "male": {
+        "use_custom_model": true,
+        "model_path": "models/en_US-libritts-high.onnx",
+        "use_speaker_id": true,
+        "speaker_id": 687,
+        "emotion": {
+          "speed": 1.05,
+          "noise": 0.6
+        }
+      },
+      "female": {
+        "use_custom_model": false,
+        "model_path": "models/en_US-libritts-high.onnx",
+        "use_speaker_id": true,
+        "speaker_id": 244,
+        "emotion": {
+          "speed": 1.05,
+          "noise": 0.6
+        }
+      }
+    },
+    "hobbit": {
+      "male": {
+        "use_custom_model": true,
+        "model_path": "models/en_US-libritts-high.onnx",
+        "use_speaker_id": true,
+        "speaker_id": 358,
+        "emotion": {
+          "speed": 0.89,
+          "noise": 0.42
+        }
+      },
+      "female": {
+        "use_custom_model": true,
+        "model_path": "models/en_US-libritts-high.onnx",
+        "use_speaker_id": true,
+        "speaker_id": 408,
+        "emotion": {
+          "speed": 0.85,
+          "noise": 0.41
+        }
+      }
+    }
+  },
+  "npc_overrides": {
+    "gandalf": {
+      "model_path": "models/en_US-libritts-high.onnx",
+      "speaker_id": 519,
+      "emotion": {
+        "speed": 0.79,
+        "noise": 0.6
+      }
+    },
+    "bombadil": {
+      "model_path": "models/en_US-libritts-high.onnx",
+      "speaker_id": 334,
+      "emotion": {
+        "speed": 0.9,
+        "noise": 0.6
+      }
+    }
+  }
+}

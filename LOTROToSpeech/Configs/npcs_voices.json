@@ -1,0 +1,156 @@
+[
+    {
+        "pitch": "-4st",
+        "rate": "0.86",
+        "emphasis": false,
+        "volume": "loud",
+        "Name": "Strider",
+        "Voice": "en-AU-Standard-B"
+    },
+    {
+        "pitch": "4st",
+        "rate": "1.05",
+        "emphasis": true,
+        "volume": "default",
+        "Name": "Sal Haywood",
+        "Voice": "en-IN-Standard-D"
+    },
+    {
+        "pitch": "1st",
+        "rate": "1.12",
+        "emphasis": false,
+        "volume": "x-soft",
+        "Name": "Bob",
+        "Voice": "en-US-Polyglot-1"
+    },
+    {
+        "pitch": "4st",
+        "rate": "1.02",
+        "emphasis": true,
+        "volume": "x-loud",
+        "Name": "Reginald Sickleweed",
+        "Voice": "en-IN-Neural2-C"
+    },
+    {
+        "pitch": "2st",
+        "rate": "0.92",
+        "emphasis": true,
+        "volume": "default",
+        "Name": "Tobold Leafcutter",
+        "Voice": "en-GB-Neural2-B"
+    },
+    {
+        "pitch": "-3st",
+        "rate": "0.88",
+        "emphasis": true,
+        "volume": "x-soft",
+        "Name": "Lalia",
+        "Voice": "en-IN-Neural2-A"
+    },
+    {
+        "pitch": "0st",
+        "rate": "0.91",
+        "emphasis": true,
+        "volume": "x-soft",
+        "Name": "Tom Bombadil",
+        "Voice": "en-US-Standard-J"
+    },
+    {
+        "pitch": "0st",
+        "rate": "0.93",
+        "emphasis": true,
+        "volume": "loud",
+        "Name": "Sambrog",
+        "Voice": "en-GB-Standard-C"
+    },
+    {
+        "pitch": "-5st",
+        "rate": "1.10",
+        "emphasis": true,
+        "volume": "default",
+        "Name": "Barliman Butterbur",
+        "Voice": "en-GB-Standard-D"
+    },
+    {
+        "pitch": "2st",
+        "rate": "1.11",
+        "emphasis": true,
+        "volume": "soft",
+        "Name": "Gandalf",
+        "Voice": "en-US-Neural2-J"
+    },
+    {
+        "pitch": "-2st",
+        "rate": "0.90",
+        "emphasis": true,
+        "volume": "x-soft",
+        "Name": "Verity Tyne",
+        "Voice": "en-GB-Standard-C"
+    },
+    {
+        "Name": "Saeradan",
+        "Voices": {
+            "edge-tts": "en-KE-ChilembaNeural"
+        },
+        "pitch": "2st",
+        "rate": "1.07",
+        "emphasis": true,
+        "volume": "x-loud"
+    },
+    {
+        "pitch": "-1st",
+        "rate": "0.90",
+        "emphasis": false,
+        "volume": "loud",
+        "Name": "Rose Thornley",
+        "Voice": "en-IN-Standard-A"
+    },
+    {
+        "pitch": "-6st",
+        "rate": "0.87",
+        "emphasis": false,
+        "volume": "soft",
+        "Name": "Ray Thistlebur",
+        "Voice": "en-US-Standard-D"
+    },
+    {
+        "pitch": "-6st",
+        "rate": "1.14",
+        "emphasis": false,
+        "volume": "soft",
+        "Name": "Nate Brittleleaf",
+        "Voice": "en-US-Standard-J"
+    },
+    {
+        "pitch": "6st",
+        "rate": "0.91",
+        "emphasis": true,
+        "volume": "x-soft",
+        "Name": "Ham Greythistle",
+        "Voice": "en-IN-Neural2-C"
+    },
+    {
+        "pitch": "-6st",
+        "rate": "0.85",
+        "emphasis": true,
+        "volume": "x-soft",
+        "Name": "Andreg",
+        "Voice": "en-GB-Neural2-D"
+    },
+    {
+        "pitch": "4st",
+        "rate": "0.90",
+        "emphasis": false,
+        "volume": "default",
+        "Name": "Robb Thornley",
+        "Voice": "en-US-Standard-C"
+    },
+    {
+        "pitch": "-6st",
+        "rate": "1.10",
+        "emphasis": true,
+        "volume": "soft",
+        "Name": "\u00c9ogar, son of Hadorgar",
+        "Voice": "en-US-Neural2-J"
+    }
+]
