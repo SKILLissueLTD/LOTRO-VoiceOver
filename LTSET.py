@@ -338,7 +338,7 @@ def is_newer_version(current, latest):
 
 
 def get_latest_github_version(repo):
-    if not repo or repo == "yourusername/lotro-voiceover":
+    if not repo or repo == "SKILLissueLTD/LOTRO-VoiceOver":
         return None
 
     url = f"https://api.github.com/repos/{repo}/releases/latest"
@@ -729,10 +729,18 @@ def load_hotkeys():
         with open(config_file, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
         print("[HOTKEYS] Added missing hotkeys to AppData hotkeys.json")
-
-    keyboard.add_hotkey(data["toggle"], lambda: toggle_voiceover())
-    keyboard.add_hotkey(data["stop"], lambda: stop_speaking())
-    keyboard.add_hotkey(data["reset"], lambda: reset_ui_scale())
+    try:
+        keyboard.add_hotkey(data["toggle"], lambda: toggle_voiceover())
+    except Exception as e:
+        print("[HOTKEY ERROR]", e)
+    try:
+        keyboard.add_hotkey(data["stop"], lambda: stop_speaking())
+    except Exception as e:
+        print("[HOTKEY ERROR]", e)
+    try:
+        keyboard.add_hotkey(data["reset"], lambda: reset_ui_scale())
+    except Exception as e:
+        print("[HOTKEY ERROR]", e)
 
 
 def get_hotkey_text():

@@ -64,23 +64,68 @@ def load_tesseract_path():
 
 
 def look_for_tesseract():
-    create_tesseract_path_file()
-    create_tesseract_lang_file()
+    import shutil
 
-    load_tesseract_path()
+    appdata = os.path.join(os.getenv("APPDATA"), "LOTROVoiceover")
+    config_path = os.path.join(appdata, "tesseract_path.txt")
 
-    if os.path.exists(app_data_path):
-        pytesseract.pytesseract.tesseract_cmd = app_data_path
-    elif os.path.exists(program_files_path):
-        pytesseract.pytesseract.tesseract_cmd = program_files_path
-    else:
-        path = load_tesseract_path()
+    # -----------------------------
+    # 1. SAVED PATH
+    # -----------------------------
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, "r") as f:
+                path = f.read().strip()
 
-        if path:
-            if r"\tesseract.exe" not in path:
-                pytesseract.pytesseract.tesseract_cmd = load_tesseract_path() + r"\tesseract.exe"
-            else:
-                pytesseract.pytesseract.tesseract_cmd = load_tesseract_path()
-        else:
-            messagebox.showerror("Error", "Cannot find Tesseract. Download Tesseract from LOTRO To Speech Github page and install it. If you have already installed it, but installed in another path, go to C:/Users/YOURUSER/Documents/LOTROToSpeech/Configs, and paste the path to your Tesseract into tesseract_path.txt.")
-            sys.exit()
+            if os.path.exists(path):
+                pytesseract.pytesseract.tesseract_cmd = path
+                print(f"[TESSERACT] Using saved: {path}")
+                return path
+        except:
+            pass
+
+    # -----------------------------
+    # 2. BUNDLED (EXE SAFE)
+    # -----------------------------
+    base_path = getattr(sys, "_MEIPASS", os.path.dirname(sys.executable))
+    bundled = os.path.join(base_path, "tesseract", "tesseract.exe")
+
+    if os.path.exists(bundled):
+        pytesseract.pytesseract.tesseract_cmd = bundled
+        print(f"[TESSERACT] Using bundled: {bundled}")
+
+        os.makedirs(appdata, exist_ok=True)
+        with open(config_path, "w") as f:
+            f.write(bundled)
+
+        return bundled
+
+    # -----------------------------
+    # 3. SYSTEM PATH
+    # -----------------------------
+    system_path = shutil.which("tesseract")
+
+    if system_path:
+        pytesseract.pytesseract.tesseract_cmd = system_path
+        print(f"[TESSERACT] Using system: {system_path}")
+
+        os.makedirs(appdata, exist_ok=True)
+        with open(config_path, "w") as f:
+            f.write(system_path)
+
+        return system_path
+
+    # -----------------------------
+    # ❌ FAIL
+    # -----------------------------
+    print("[TESSERACT] NOT FOUND")
+
+    try:
+        messagebox.showerror(
+            "Missing Dependency",
+            "Tesseract OCR not found.\nPlease reinstall the app."
+        )
+    except:
+        pass
+
+    return None
