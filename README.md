@@ -168,12 +168,15 @@ The application includes an updater that:
 
 ## 🚀 Future Plans
 
-- Improved audio quality and voice naturalness  
-- Support for custom LOTRO UI skins  
-- Better NPC recognition and edge-case handling  
-- More voice models  
-- Fully automatic updater (download + install)  
-- UI and usability improvements  
+- Improved audio quality and more natural-sounding voices
+- Narrator mode (single high-quality audiobook-style voice)
+- Improved immersive mode (better race detection and voice selection)
+- Better NPC recognition and handling of edge cases
+- Support for custom LOTRO UI skins
+- More voice models and customization options
+- Fully automatic updater (download and install updates)
+- UI and overall usability improvements
+- Ongoing codebase refinement and structural improvements
 
 ---
 
