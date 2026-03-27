@@ -97,9 +97,9 @@ def stop_all():
 
 def resume():
     globalVariables.paused = False
-    print("[VOICE] RESUMED")
+    #print("[VOICE] RESUMED")
 
-# -----------------------------
+# -----------------------------S
 # NORMALIZE
 # -----------------------------
 
@@ -394,25 +394,23 @@ def get_npc_override(name):
 
 
 def generate(text, output, npc):
-    
+
     override = get_npc_override(npc)
-    
-    # -----------------------------
-    # 🔥 NPC OVERRIDE (HIGHEST PRIORITY)
-    # -----------------------------
+
     if override:
+        race = "human"
+        gender = "male"
+
+        base_model, _, _ = get_voice_config(race, gender)
 
         model_path = resolve_model_path(override.get("model_path"))
+        if not model_path:
+            model_path = base_model
+
         speaker = override.get("speaker_id")
         emotion = override.get("emotion", {})
 
-        race = "override"
-        gender = "override"
-
     else:
-        # -----------------------------
-        # NORMAL FLOW
-        # -----------------------------
         race = detect_race(npc)
         gender = get_gender_from_files(npc)
 
@@ -420,25 +418,21 @@ def generate(text, output, npc):
             gender = return_npc_gender(npc) or "male"
 
         model_path, speaker, emotion = get_voice_config(race, gender)
+
+    if not emotion:
+        emotion = {}
+
     print(f"[GENDER DEBUG] NPC='{npc}' → gender='{gender}'")
-    # -----------------------------
-    # SAFETY CHECK
-    # -----------------------------
+
     if not model_path:
         print("[ERROR] No model found")
         return
 
-    # -----------------------------
-    # DEBUG
-    # -----------------------------
     if globalVariables.debug_mode:
         print(f"[DEBUG] NPC: {npc}")
         print(f"[DEBUG] Race: {race}, Gender: {gender}")
         print(f"[DEBUG] Model: {model_path}, Speaker: {speaker}, Emotion: {emotion}")
 
-    # -----------------------------
-    # VOICE PARAMS
-    # -----------------------------
     speed = emotion.get("speed", 1.0) / globalVariables.reading_speed
     noise = emotion.get("noise", 0.6)
 
@@ -454,9 +448,6 @@ def generate(text, output, npc):
     if speaker is not None and speaker != -1:
         cmd += ["--speaker", str(speaker)]
 
-    # -----------------------------
-    # RUN
-    # -----------------------------
     try:
         subprocess.run(
             cmd,
